@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Blossom Beauty Parlour | Luxury Bridal Makeup in Pattukkottai
+    </title>
+
+    <meta name="description"
+        content="Blossom Beauty Parlour offers luxury bridal makeup, reception makeup, hair styling, saree draping, jewellery rental, beauty services, and makeup classes in Pattukkottai.">
+
+    <meta name="keywords"
+        content="Blossom Beauty Parlour, Bridal Makeup Pattukkottai, Beauty Parlour Pattukkottai, Makeup Artist Pattukkottai, Reception Makeup, Saree Draping, Makeup Classes">
+
+    <meta name="author" content="Blossom Beauty Parlour">
+
+    <!-- Open Graph SEO -->
+    <meta property="og:title" content="Blossom Beauty Parlour | Luxury Bridal Makeup">
+
+    <meta property="og:description" content="Premium bridal makeup and luxury beauty services in Pattukkottai.">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:image" content="assets/bridal-makeup-1.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- Floating Particles Canvas -->
+    <canvas id="particles"></canvas>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">Blossom</span>
+                <span class="logo-dot"></span>
+            </a>
+
+            <div class="desktop-menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#special-services">Special Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#booking">Book Now</a>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Side Menu Overlay -->
+    <div class="side-menu-overlay" id="side-menu-overlay"></div>
+
+    <!-- Side Menu -->
+    <div class="side-menu" id="side-menu">
+        <div class="close-btn" id="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="side-menu-content">
+            <a href="#home" class="menu-link"><i class="fas fa-home"></i> Home</a>
+            <a href="#about" class="menu-link"><i class="fas fa-info-circle"></i> About</a>
+            <a href="#services" class="menu-link"><i class="fas fa-spa"></i> Services</a>
+            <a href="#special-services" class="menu-link"><i class="fas fa-crown"></i> Special Services</a>
+            <a href="#gallery" class="menu-link"><i class="fas fa-images"></i> Gallery</a>
+            <a href="#reviews" class="menu-link"><i class="fas fa-star"></i> Reviews</a>
+            <a href="#booking" class="menu-link"><i class="fas fa-calendar-alt"></i> Book Appointment</a>
+            <a href="#contact" class="menu-link"><i class="fas fa-envelope"></i> Contact</a>
+        </div>
+        <div class="side-menu-socials">
+            <a href="https://www.instagram.com/blossom__makeupartist" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/919842232008?text=Hi%20Blossom%20Beauty%20Parlour,%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20know%20more%20about%20your%20bridal%20makeup%20and%20beauty%20services."
+                target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="tel:+919842232008"><i class="fas fa-phone-alt"></i></a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-bg">
+            <img src="assets/images/hero_bg.png" alt="Blossom Beauty Parlour Bridal Background">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1500">
+            <div class="hero-badge">Premium Luxury</div>
+            <h1 class="hero-title">Blossom Beauty Parlour</h1>
+            <div class="hero-divider"></div>
+            <p class="hero-subtitle">Luxury Bridal Makeup & Beauty Care</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn btn-primary">Book Appointment <i class="fas fa-arrow-right"></i></a>
+                <a href="https://wa.me/919842232008?text=Hi%20Blossom%20Beauty%20Parlour,%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20know%20more%20about%20your%20bridal%20makeup%20and%20beauty%20services."
+                    target="_blank" class="btn btn-outline"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper" data-aos="fade-right">
+                    <img src="assets/images/about.png" alt="About Blossom Beauty Parlour" class="about-img">
+                    <div class="experience-badge">
+                        <span class="years">10+</span>
+                        <span class="text">Years<br>Experience</span>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <h4 class="section-subtitle">Welcome to Blossom</h4>
+                    <h2 class="section-title">Where Elegance Meets Perfection</h2>
+                    <p class="section-text">Step into a world of ultimate luxury and self-care. At Blossom Beauty
+                        Parlour, we believe every woman deserves to feel like a queen, especially on her big day. Our
+                        premium cinematic bridal studio offers a sanctuary of beauty.</p>
+                    <p class="section-text">With over a decade of experience, our expert stylists and makeup artists use
+                        only the finest high-end products to ensure a flawless, radiant look that lasts all day.</p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check-circle"></i> Premium International Products</li>
+                        <li><i class="fas fa-check-circle"></i> Highly Trained Professionals</li>
+                        <li><i class="fas fa-check-circle"></i> Luxurious & Hygienic Ambiance</li>
+                    </ul>
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding bg-light" id="services">
+        <!-- Floating Faded Background Images -->
+        <div class="services-bg-decor">
+            <div class="decor-image img-1" style="background-image: url('assets/images/bridal-makeup-1.jpg');"></div>
+            <div class="decor-image img-2" style="background-image: url('assets/images/bridal-makeup-2.jpg');"></div>
+            <div class="decor-image img-3" style="background-image: url('assets/images/bridal-makeup-3.jpg');"></div>
+            <div class="services-overlay-layer"></div>
+        </div>
+
+        <div class="container" style="position: relative; z-index: 2;">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">Our Offerings</h4>
+                <h2 class="section-title">Luxury Services</h2>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon"><i class="fas fa-gem"></i></div>
+                    <h3>Bridal Makeup</h3>
+                    <p>Cinematic flawless bridal looks customized to accentuate your natural beauty on your big day.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon"><i class="fas fa-camera"></i></div>
+                    <h3>Reception Makeup</h3>
+                    <p>Sleek, glam, and elegant presentation customized beautifully for receptions and post-wedding
+                        festivities.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon"><i class="fas fa-cut"></i></div>
+                    <h3>Hair Styling</h3>
+                    <p>Elegant updos, romantic curls, traditional styling, and modern premium hair artistry.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon"><i class="fas fa-spa"></i></div>
+                    <h3>Facial</h3>
+                    <p>Rejuvenating luxury facials using premium skin care lines to give you that gorgeous bridal glow.
+                    </p>
+                </div>
+                <!-- Service 5 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon"><i class="fas fa-female"></i></div>
+                    <h3>Saree Draping</h3>
+                    <p>Perfect traditional and modern draping techniques for an immaculate, elegant profile.</p>
+                </div>
+                <!-- Service 6 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon"><i class="fas fa-fan"></i></div>
+                    <h3>Hair Spa</h3>
+                    <p>Deep-conditioning, revitalizing treatments for silky, shiny, and perfectly healthy hair.</p>
+                </div>
+                <!-- Service 7 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="service-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>Mehendi</h3>
+                    <p>Exquisite bridal henna designs and intricate artistic creations crafted by specialized experts.
+                    </p>
+                </div>
+                <!-- Service 8 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="800">
+                    <div class="service-icon"><i class="fas fa-hand-sparkles"></i></div>
+                    <h3>Nail Art</h3>
+                    <p>Sophisticated nail extensions, custom gel colors, and elegant artistic bridal detailing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Luxury Bridal Packages Section -->
+    <section class="luxury-packages section-padding" id="luxury-packages">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">Elegant bridal transformations crafted for your special moments ✨</h4>
+                <h2 class="section-title">Luxury Bridal Packages</h2>
+            </div>
+            <div class="pricing-grid">
+                <!-- Party Makeup Package -->
+                <div class="pricing-card" data-aos="fade-up" data-package="party">
+                    <h3 class="card-title">Party Makeup Package</h3>
+
+                    <div class="package-tabs">
+                        <button class="tab-btn active" data-type="basic">Basic</button>
+                        <button class="tab-btn" data-type="hd">HD</button>
+                    </div>
+
+                    <div class="dynamic-content-wrapper">
+                        <div class="price-display">
+                            <span class="currency">₹</span><span class="price-number animate-price">4,000</span>
+                        </div>
+                        <ul class="includes-list">
+                            <li><i class="fas fa-check"></i> Makeup</li>
+                            <li><i class="fas fa-check"></i> Hairdo</li>
+                            <li><i class="fas fa-check"></i> Saree Draping</li>
+                        </ul>
+                    </div>
+
+                    <a href="https://wa.me/919842232008?text=Hi%20Blossom%20Beauty%20Parlour,%20I%20would%20like%20to%20book%20the%20Basic%20Party%20Makeup%20Package%20✨"
+                        target="_blank" class="btn btn-outline-full booking-btn">Book This Package ✨</a>
+                </div>
+
+                <!-- Bridal Makeup Package (Most Popular) -->
+                <div class="pricing-card most-popular" data-aos="fade-up" data-package="bridal">
+                    <div class="badge">Most Popular ✨</div>
+                    <h3 class="card-title">Bridal Makeup Package</h3>
+
+                    <div class="package-tabs">
+                        <button class="tab-btn active" data-type="basic">Basic</button>
+                        <button class="tab-btn" data-type="hd">HD</button>
+                        <button class="tab-btn" data-type="premium">Premium</button>
+                    </div>
+
+                    <div class="dynamic-content-wrapper">
+                        <div class="price-display">
+                            <span class="currency">₹</span><span class="price-number animate-price">12,000</span>
+                        </div>
+                        <ul class="includes-list">
+                            <li><i class="fas fa-check"></i> Makeup</li>
+                            <li><i class="fas fa-check"></i> Jewellery</li>
+                            <li><i class="fas fa-check"></i> Hairdo</li>
+                            <li><i class="fas fa-check"></i> Saree Draping</li>
+                        </ul>
+                    </div>
+
+                    <a href="https://wa.me/919842232008?text=Hi%20Blossom%20Beauty%20Parlour,%20I%20would%20like%20to%20book%20the%20Basic%20Bridal%20Makeup%20Package%20✨"
+                        target="_blank" class="btn btn-primary-full booking-btn">Book This Package ✨</a>
+                </div>
+
+                <!-- Engagement Makeup Package -->
+                <div class="pricing-card" data-aos="fade-up" data-package="engagement">
+                    <h3 class="card-title">Engagement Makeup Package</h3>
+
+                    <div class="package-tabs">
+                        <button class="tab-btn active" data-type="basic">Basic</button>
+                        <button class="tab-btn" data-type="hd">HD</button>
+                    </div>
+
+                    <div class="dynamic-content-wrapper">
+                        <div class="price-display">
+                            <span class="currency">₹</span><span class="price-number animate-price">10,000</span>
+                        </div>
+                        <ul class="includes-list">
+                            <li><i class="fas fa-check"></i> Makeup</li>
+                            <li><i class="fas fa-check"></i> Hairdo</li>
+                            <li><i class="fas fa-check"></i> Saree Draping</li>
+                        </ul>
+                    </div>
+
+                    <a href="https://wa.me/919842232008?text=Hi%20Blossom%20Beauty%20Parlour,%20I%20would%20like%20to%20book%20the%20Basic%20Engagement%20Makeup%20Package%20✨"
+                        target="_blank" class="btn btn-outline-full booking-btn">Book This Package ✨</a>
+                </div>
+
+                <!-- Reception Makeup Package -->
+                <div class="pricing-card" data-aos="fade-up" data-package="reception">
+                    <h3 class="card-title">Reception Makeup Package</h3>
+
+                    <div class="static-price-label">Reception Makeup</div>
+
+                    <div class="dynamic-content-wrapper">
+                        <div class="price-display">
+                            <span class="currency">₹</span><span class="price-number">12,000</span>
+                        </div>
+                        <ul class="includes-list">
+                            <li><i class="fas fa-check"></i> Makeup</li>
+                            <li><i class="fas fa-check"></i> Hairdo</li>
+                            <li><i class="fas fa-check"></i> Saree Draping</li>
+                        </ul>
+                    </div>
+
+                    <a href="https://wa.me/919842232008?text=Hi%20Blossom%20Beauty%20Parlour,%20I%20would%20like%20to%20book%20the%20Reception%20Makeup%20Package%20✨"
+                        target="_blank" class="btn btn-outline-full booking-btn">Book This Package ✨</a>
+                </div>
+
+                <!-- Baby Shower Makeup Package -->
+                <div class="pricing-card" data-aos="fade-up" data-package="babyshower">
+                    <h3 class="card-title">Baby Shower Makeup Package</h3>
+
+                    <div class="static-price-label">Baby Shower Makeup</div>
+
+                    <div class="dynamic-content-wrapper">
+                        <div class="price-display">
+                            <span class="currency">₹</span><span class="price-number">10,000</span>
+                        </div>
+                        <ul class="includes-list">
+                            <li><i class="fas fa-check"></i> Makeup</li>
+                            <li><i class="fas fa-check"></i> Hairdo</li>
+                        </ul>
+                    </div>
+
+                    <a href="https://wa.me/919842232008?text=Hi%20Blossom%20Beauty%20Parlour,%20I%20would%20like%20to%20book%20the%20Baby%20Shower%20Makeup%20Package%20✨"
+                        target="_blank" class="btn btn-outline-full booking-btn">Book This Package ✨</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Services Section -->
+    <section class="special-services section-padding" id="special-services">
+        <div class="glow-shape glow-1"></div>
+        <div class="glow-shape glow-2"></div>
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">More than just makeup — complete bridal elegance & beauty experiences ✨
+                </h4>
+                <h2 class="section-title">Special Services</h2>
+            </div>
+
+            <div class="special-services-grid">
+                <!-- Service 1: Bridal Jewellery Rental -->
+                <div class="special-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="special-icon-wrapper">
+                        <div class="special-icon">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                    </div>
+                    <h3 class="special-title">Bridal Jewellery Rental</h3>
+                    <p class="special-description">Premium bridal jewellery collections available for weddings,
+                        receptions, and special occasions.</p>
+                    <div class="special-glow"></div>
+                </div>
+
+                <!-- Service 2: Saree Box Folding -->
+                <div class="special-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="special-icon-wrapper">
+                        <div class="special-icon">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                    </div>
+                    <h3 class="special-title">Saree Box Folding</h3>
+                    <p class="special-description">Elegant saree box folding and bridal presentation services designed
+                        beautifully for memorable occasions.</p>
+                    <div class="special-glow"></div>
+                </div>
+
+                <!-- Service 3: Makeup Classes -->
+                <div class="special-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="special-icon-wrapper">
+                        <div class="special-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <h3 class="special-title">Professional Makeup Classes</h3>
+                    <p class="special-description">Hands-on beauty training and professional makeup classes for aspiring
+                        makeup artists and beauty enthusiasts.</p>
+                    <div class="special-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section-padding bg-light" id="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">Bridal Gallery</h4>
+                <h2 class="section-title">Bridal Portfolio</h2>
+                <p class="section-text"
+                    style="max-width: 650px; margin: 0 auto; color: #666; font-size: 1.1rem; line-height: 1.6;">Luxury
+                    bridal transformations, makeup artistry & beauty moments ✨</p>
+            </div>
+
+            <!-- Premium Bridal Gallery Grid -->
+            <div class="bridal-gallery-grid">
+
+                <!-- Row 1: 3-column image layout -->
+                <div class="gallery-row gallery-row-3col" data-aos="fade-up">
+                    <div class="gallery-item">
+                        <img src="assets/images/bridal-makeup-1.jpg" alt="Luxury Bridal Makeup 1">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-heart"></i>
+                            <span>Royal Glam</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/bridal-makeup-2.jpg" alt="Luxury Bridal Makeup 2">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-heart"></i>
+                            <span>Traditional Elegance</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/mehandi-1.jpg" alt="Luxury Bridal Makeup 3">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-heart"></i>
+                            <span>Modern Radiance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Full-width cinematic video showcase -->
+                <div class="gallery-row gallery-row-fullwidth" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cinematic-video-card">
+                        <div class="play-overlay" aria-hidden="true">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="video-overlay">
+                            <div class="video-label">
+                                <i class="fas fa-play-circle"></i>
+                                <span>Cinematic Bridal Reel</span>
+                            </div>
+                            <h3>The Art of Transformation</h3>
+                            <p>Watch a glimpse of our exquisite premium bridal makeovers</p>
+                        </div>
+                        <video autoplay muted loop playsinline class="cinematic-video">
+
+                            <source src="assets/images/bridal_video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <!-- Row 3: 3-column image layout -->
+                <div class="gallery-row gallery-row-3col" data-aos="fade-up" data-aos-delay="200">
+                    <div class="gallery-item">
+                        <img src="assets/images/hair.jpg" alt="Exquisite Hairstyle">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-heart"></i>
+                            <span>Jasmine Braid Artistry</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/mehandi-2.jpg" alt="Bridal Mehendi 1">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-heart"></i>
+                            <span>Intricate Henna</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/hairstyle-1.jpg" alt="Bridal Mehendi 2">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-heart"></i>
+                            <span>Traditional Lotus Motif</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Our CEO Section -->
+    <section class="ceo-section section-padding" id="ceo">
+        <div class="ceo-decor-blur blur-1"></div>
+        <div class="ceo-decor-blur blur-2"></div>
+
+        <div class="container">
+            <div class="ceo-grid">
+
+                <!-- Left Side: CEO Portrait -->
+                <div class="ceo-image-wrapper" data-aos="fade-right">
+                    <div class="ceo-image-container">
+                        <img src="assets/images/ceo.jpeg" alt="Blossom Beauty Parlour CEO & Founder">
+                        <div class="ceo-image-overlay">
+                            <span class="ceo-experience">30+ Years Legacy</span>
+                        </div>
+                    </div>
+                    <div class="ceo-glow-shape"></div>
+                </div>
+
+                <!-- Right Side: CEO Details -->
+                <div class="ceo-details" data-aos="fade-left" data-aos-delay="100">
+                    <span class="ceo-tag">Founder & Lead Makeup Artist</span>
+                    <h2 class="ceo-heading">Meet Our CEO</h2>
+                    <h3 class="ceo-subheading">Luxury Bridal Makeup Expert & Beauty Educator ✨</h3>
+
+                    <div class="ceo-divider"></div>
+
+                    <p class="ceo-description">
+                        An internationally certified bridal makeup artist trained under the legendary Master
+                        <strong>@kannanraajamanickam</strong>, bringing over <strong>30 years</strong> of unrivaled
+                        beauty expertise, bridal artistry, and professional makeup education to Blossom Beauty Parlour.
+                    </p>
+                    <p class="ceo-description">
+                        As a passionate beauty educator and bridal transformation specialist, she has mentored thousands
+                        of aspiring artists at our luxury makeup academy. Her philosophy centers around crafting unique,
+                        flawless, and long-lasting bridal makeovers that celebrate each bride's authentic radiance and
+                        heritage on her most special day.
+                    </p>
+
+                    <!-- Professional Achievements list -->
+                    <ul class="ceo-achievements">
+                        <li><i class="fas fa-award"></i> Internationally Certified MUA (Master Kannan Raajamanickam)
+                        </li>
+                        <li><i class="fas fa-history"></i> 30+ Years of Professional Bridal Legacy</li>
+                        <li><i class="fas fa-graduation-cap"></i> Founder of Blossom Professional Makeup Academy</li>
+                        <li><i class="fas fa-gem"></i> Exquisite South Indian Bridal Specialization</li>
+                    </ul>
+
+                    <!-- CTA Buttons -->
+                    <div class="ceo-cta-group">
+                        <a href="https://wa.me/919842232008?text=Hi%20Blossom%20Beauty%20Parlour,%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20book%20a%20bridal%20makeup%20session%20with%20your%20Lead%20Artist."
+                            target="_blank" class="btn btn-primary btn-book-appointment">
+                            <i class="far fa-calendar-check"></i> Book Appointment
+                        </a>
+                        <a href="https://wa.me/919842232008?text=Hi%20Blossom%20Beauty%20Parlour,%20I%20would%20like%20to%20know%20more%20details%20about%20your%20upcoming%20Professional%20Makeup%20Classes."
+                            target="_blank" class="btn btn-secondary btn-whatsapp-now">
+                            <i class="fab fa-whatsapp"></i> Inquiry & Classes
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Feed Showcase Section -->
+    <section class="instagram-section section-padding" id="instagram-feed">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">Join Our Community</h4>
+                <h2 class="section-title">Follow Our Journey</h2>
+                <p class="section-text"
+                    style="max-width: 600px; margin: 0 auto; color: #666; font-size: 1.1rem; line-height: 1.6;">Follow
+                    us for bridal transformations, beauty updates & makeup reels ✨</p>
+            </div>
+
+            <div class="instagram-grid" data-aos="fade-up">
+                <!-- Instagram Card 1 -->
+                <div class="instagram-post">
+                    <img src="assets/images/bridal-makeup-1.jpg" alt="Instagram Bridal Glam Reel">
+                    <div class="instagram-overlay">
+                        <a href="https://www.instagram.com/blossom__makeupartist" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span>View Reel</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Instagram Card 2 -->
+                <div class="instagram-post">
+                    <img src="assets/images/hair.jpg" alt="Instagram Hair Styling Showcase">
+                    <div class="instagram-overlay">
+                        <a href="https://www.instagram.com/blossom__makeupartist" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span>View Post</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Instagram Card 3 -->
+                <div class="instagram-post">
+                    <img src="assets/images/mehandi-1.jpg" alt="Instagram Mehendi Art Design">
+                    <div class="instagram-overlay">
+                        <a href="https://www.instagram.com/blossom__makeupartist" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span>View Post</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Instagram Card 4 -->
+                <div class="instagram-post">
+                    <img src="assets/images/bridal-makeup-2.jpg" alt="Instagram Bridal Client Transform">
+                    <div class="instagram-overlay">
+                        <a href="https://www.instagram.com/blossom__makeupartist" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span>View Reel</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="instagram-cta-wrapper" data-aos="fade-up">
+                <a href="https://www.instagram.com/blossom__makeupartist" target="_blank"
+                    class="btn btn-instagram-follow">
+                    <i class="fab fa-instagram"></i> Follow @blossom__makeupartist
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews section-padding" id="reviews">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">Testimonials</h4>
+                <h2 class="section-title">What Our Brides Say</h2>
+            </div>
+
+            <div class="reviews-slider">
+                <div class="review-card" data-aos="fade-up">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Blossom made me feel like an absolute queen on my wedding day! The HD bridal
+                        makeup was flawless, looked so natural yet radiant, and stayed perfectly fresh through all the
+                        traditional ceremonies. Highly professional and friendly service!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">P</div>
+                        <div class="reviewer-info">
+                            <h4>Priya Dharshini</h4>
+                            <p>Happy Bride</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"The personalized care at Blossom is truly exceptional. Their luxury bridal
+                        facials and friendly, warm ambiance make every visit feel so pampering. I always walk out
+                        feeling relaxed and glowing!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">M</div>
+                        <div class="reviewer-info">
+                            <h4>Meera Krishnan</h4>
+                            <p>Regular Client</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Exceptional customer satisfaction! I chose Blossom for my reception makeup
+                        and saree draping. The team is extremely skilled, the saree pleating was completely immaculate,
+                        and the makeup was camera-ready!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">K</div>
+                        <div class="reviewer-info">
+                            <h4>Kausalya Murugan</h4>
+                            <p>Happy Bride</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section class="booking section-padding bg-light" id="booking">
+        <div class="container">
+            <div class="whatsapp-booking-card" data-aos="zoom-in">
+                <div class="whatsapp-icon-large">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <h2 class="section-title">Book Your Beauty Appointment</h2>
+                <p class="section-text">Connect with us directly on WhatsApp for bridal bookings, beauty services,
+                    makeup appointments, and consultation.</p>
+                <a href="https://wa.me/919842232008?text=Hi%20Blossom%20Beauty%20Parlour,%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20know%20more%20about%20your%20bridal%20makeup%20and%20beauty%20services."
+                    target="_blank" class="btn btn-whatsapp-large">
+                    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">Get in Touch</h4>
+                <h2 class="section-title">Contact Blossom Beauty Parlour</h2>
+                <p class="section-text" style="max-width: 600px; margin: 0 auto;">We’re here to make your beauty
+                    experience luxurious and memorable.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-cards">
+                    <!-- WhatsApp Card -->
+                    <div class="contact-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="contact-icon whatsapp"><i class="fab fa-whatsapp"></i></div>
+                        <h3>WhatsApp Us</h3>
+                        <p class="contact-detail">+91 98422 32008</p>
+                        <a href="https://wa.me/919842232008?text=Hi%20Blossom%20Beauty%20Parlour,%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20know%20more%20about%20your%20bridal%20makeup%20and%20beauty%20services."
+                            target="_blank" class="btn btn-outline-full">Chat on
+                            WhatsApp</a>
+                    </div>
+
+                    <!-- Phone Card -->
+                    <div class="contact-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="contact-icon phone"><i class="fas fa-phone-alt"></i></div>
+                        <h3>Call Us</h3>
+                        <p class="contact-detail">+91 98422 32008</p>
+                        <a href="tel:+919842232008" class="btn btn-outline-full">Call Now</a>
+                    </div>
+
+                    <!-- Instagram Card -->
+                    <div class="contact-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="contact-icon instagram"><i class="fab fa-instagram"></i></div>
+                        <h3>Instagram</h3>
+                        <p class="contact-detail">@blossom__makeupartist</p>
+                        <p class="contact-subtext">Follow us for bridal updates, makeup reels & beauty transformations.
+                        </p>
+                        <a href="https://www.instagram.com/blossom__makeupartist" target="_blank"
+                            class="btn btn-outline-full"><i class="fab fa-instagram"></i> Follow Us</a>
+                    </div>
+                </div>
+
+                <!-- Location Map Card -->
+                <div class="location-card glass-card" data-aos="fade-left">
+                    <div class="location-header">
+                        <div class="contact-icon location"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h3>Our Luxury Studio</h3>
+                            <p>Blossom Beauty Parlour,<br>Alla Kovil Street, Samiyar Madam,<br>Thangavel Nagar,
+                                Pattukkottai,<br>Tamil Nadu – 614601</p>
+                        </div>
+                    </div>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.670275820464!2d79.31754021533036!3d10.428387292558694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a554a001bd2d0a7%3A0x6d9f7830f36798de!2sPattukkottai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1715842856000!5m2!1sen!2sin"
+                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <a href="https://maps.google.com/?q=Blossom+Beauty+Parlour+Alla+Kovil+Street+Samiyar+Madam+Thangavel+Nagar+Pattukkottai"
+                        target="_blank" class="btn btn-primary-full">Get Directions <i
+                            class="fas fa-location-arrow"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>Blossom<span>.</span></h2>
+                    <p>Your ultimate destination for luxury beauty care and exquisite bridal transformations.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/blossom__makeupartist" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919842232008?text=Hi%20Blossom%20Beauty%20Parlour,%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20know%20more%20about%20your%20bridal%20makeup%20and%20beauty%20services."
+                            target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="tel:+919842232008"><i class="fas fa-phone-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cancellation Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Blossom Beauty Parlour. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919842232008?text=Hi%20Blossom%20Beauty%20Parlour,%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20know%20more%20about%20your%20bridal%20makeup%20and%20beauty%20services."
+        target="_blank" class="floating-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Bottom Navigation Bar (Mobile) -->
+    <div class="bottom-nav">
+        <a href="#home" class="nav-item active">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#services" class="nav-item">
+            <i class="fas fa-spa"></i>
+            <span>Services</span>
+        </a>
+        <a href="#booking" class="nav-item book-now-btn">
+            <div class="book-icon">
+                <i class="fas fa-calendar-plus"></i>
+            </div>
+        </a>
+        <a href="#gallery" class="nav-item">
+            <i class="fas fa-images"></i>
+            <span>Gallery</span>
+        </a>
+        <a href="#contact" class="nav-item">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+        </a>
+    </div>
+
+    <!-- Cinematic Video Lightbox Modal -->
+    <div id="video-lightbox" class="video-lightbox-modal">
+        <div class="video-lightbox-overlay"></div>
+        <button class="video-lightbox-close" aria-label="Close video modal">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="video-lightbox-container">
+            <video id="lightbox-player" controls playsinline>
+                <source
+                    src="https://assets.mixkit.co/videos/preview/mixkit-bride-putting-on-her-earrings-before-the-wedding-39943-large.mp4"
+                    type="video/mp4">
+                <source src="assets/images/bridal-reel.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
